@@ -42,9 +42,7 @@ class ListViewController: UITableViewController, XMLParserDelegate {
     }
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
         self.currentString = ""
-        if elementName == "item" {
-            self.item = Item()
-        }
+        self.item = Item()
     }
     
     func parser(_ parser: XMLParser, foundCharacters string: String) {
@@ -54,9 +52,9 @@ class ListViewController: UITableViewController, XMLParserDelegate {
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         
         switch elementName{
-        case "title": self.item?.title = currentString
-        case "link": self.item?.link = currentString
-        case "item": self.items.append(self.item!)
+        case "title":
+            self.item?.title = currentString
+            self.items.append(self.item!)
         default : break
         }
     }

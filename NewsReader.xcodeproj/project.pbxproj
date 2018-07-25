@@ -285,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P4A6ZQHX6B;
+				DEVELOPMENT_TEAM = H2XW5KQ42M;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P4A6ZQHX6B;
+				DEVELOPMENT_TEAM = H2XW5KQ42M;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
